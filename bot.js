@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 
 
-client.login("your token");
+client.login("NTMxMDU3OTg5NTg3NTY2NjEx.DxIZ3g.2etOoN-u7Z9_OCX6_32TrMD91M4");
 
 
 
