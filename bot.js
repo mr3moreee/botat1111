@@ -25,7 +25,7 @@ client.user.setStatus("dnd");
 
 
 const devs = ["531057989587566611"];
-const adminprefix = ["&"];
+const adminprefix = ["$"];
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
