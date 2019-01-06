@@ -50,7 +50,7 @@ client.on("message", message => {
 //كود استريمنق
 client.on('ready',  () => {
             console.log(`Family Server`);
-    client.user.setGame("Narox Devs", "https://www.twitch.tv/idk");
+    client.user.setGame("Family Server", "https://www.twitch.tv/idk");
 });
 
 
@@ -64,7 +64,7 @@ client.on("message", message => {
         .setDescription(`**تم الارسال في الخاص**📬`)
      const embed = new Discord.RichEmbed()
          .setColor('#36393e')
-         .setTitle('Click To Join Support Server')
+         .setTitle('Talk With @Mr_3moreee')
          .setURL('')
          .setDescription(``)
    message.channel.send(e).then(m => m.delete(5000))
@@ -106,7 +106,7 @@ message.channel.sendEmbed(embed)
 client.on('message', message => {//new msg event
 if(!message.channel.guild) return;
   if(message.content.startsWith(prefix + 'set')) {//to create the rainbow role
-	  let role = message.guild.roles.find('name', 'Rainbow bot.')
+	  let role = message.guild.roles.find('RainBow', 'Rainbow bot.')
     if(role) return message.channel.send(`This Step Already Completed !`)//if the role already created return with this msg
   //start of create role 
   if(!role){
